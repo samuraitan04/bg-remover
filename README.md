@@ -88,20 +88,4 @@ If you encounter any issues, please try the following:
    pip install streamlit pillow rembg
    ```
 
-3. Debug errors by reviewing the terminal logs and resolving any dependency conflicts.
-
----
-
-## Notes
-
-- This project is a demonstration of how simple it is to use `rembg` for background removal.
-- Contributions, bug fixes, and suggestions are welcome!
-
----
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-```
-
-This single markdown file provides a complete setup guide, usage instructions, and troubleshooting tips for your project, formatted for easy reading. Replace `your-username` with your GitHub username where necessary.
+3. Debug errors by reviewing the terminal logs and resolving any dependency conflicts or use chatgpt to try to debug.
