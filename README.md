@@ -35,3 +35,13 @@ Ensure you have the following installed on your system:
    ```bash
    git clone https://github.com/your-username/bg-remover.git
    cd bg-remover
+
+2. Install the required libraries
+    ```bash
+    pip install streamlit pillow rembg
+
+3. Run the Application
+   Run the following command to start the app:
+   ```bash
+    streamlit run app.py
+
