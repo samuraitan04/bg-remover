@@ -29,19 +29,79 @@ Ensure you have the following installed on your system:
 - Python (>=3.8 recommended)
 - pip (Python package manager)
 
+---
+
 ### 2. Installation
 
-1. Clone the repository:
+#### Step 1: Clone the repository
+```bash
+git clone https://github.com/your-username/bg-remover.git
+cd bg-remover
+```
+
+#### Step 2: Set up a virtual environment
+Create a virtual environment to keep dependencies isolated:
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment:
+- On **Linux/MacOS**:
+  ```bash
+  source venv/bin/activate
+  ```
+- On **Windows**:
+  ```bash
+  .\venv\Scripts\activate
+  ```
+
+#### Step 3: Install the required libraries
+Install all dependencies in the virtual environment:
+```bash
+pip install streamlit pillow rembg
+```
+
+---
+
+### 3. Run the Application
+
+Run the following command to start the app:
+```bash
+streamlit run app.py
+```
+
+Open your browser at the URL displayed in the terminal (typically `http://localhost:8501`).
+
+---
+
+### 4. Troubleshooting
+
+If you encounter any issues, please try the following:
+
+1. Ensure the virtual environment is activated:
+   - **Linux/MacOS**: `source venv/bin/activate`
+   - **Windows**: `.\venv\Scripts\activate`
+
+2. Reinstall the required libraries:
    ```bash
-   git clone https://github.com/your-username/bg-remover.git
-   cd bg-remover
+   pip install --upgrade pip
+   pip install streamlit pillow rembg
+   ```
 
-2. Install the required libraries
-    ```bash
-    pip install streamlit pillow rembg
+3. Debug errors by reviewing the terminal logs and resolving any dependency conflicts.
 
-3. Run the Application
-   Run the following command to start the app:
-   ```bash
-    streamlit run app.py
+---
 
+## Notes
+
+- This project is a demonstration of how simple it is to use `rembg` for background removal.
+- Contributions, bug fixes, and suggestions are welcome!
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+```
+
+This single markdown file provides a complete setup guide, usage instructions, and troubleshooting tips for your project, formatted for easy reading. Replace `your-username` with your GitHub username where necessary.
